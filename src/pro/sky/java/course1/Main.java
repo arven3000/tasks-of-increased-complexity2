@@ -6,18 +6,16 @@ public class Main {
         /*Task 4*/
         System.out.println("******************* Task 4 ***************************");
 
+
         for (int i = 1; i <= 30; ++i) {
+            System.out.print(i + ": ");
             if (i % 3 == 0) {
-                if (i % 5 == 0) {
-                    System.out.println(i + ": ping pong");
-                } else {
-                    System.out.println(i + ": ping");
-                }
-            } else if (i % 5 == 0) {
-                System.out.println(i + ": pong");
-            } else {
-                System.out.println(i + ":");
+                System.out.print("ping ");
             }
+            if (i % 5 == 0) {
+                System.out.print("pong");
+            }
+            System.out.println();
         }
 
         System.out.println("******************* Task 5 ***************************");
